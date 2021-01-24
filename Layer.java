@@ -26,7 +26,7 @@ public class Layer {
         return layer;
     }
 
-    //INITIaLIZES  THE LAYER
+    //INITIALIZES  THE LAYER
     public void initiliazeLayer(){
         System.out.println("Set layer\n");
         Scanner scanner=new Scanner(System.in);
@@ -55,7 +55,7 @@ public class Layer {
             }
     }
 
-    //CHECKS IF THE USER INPUT IS CORRECT NEEDS A FIX
+    //CHECKS IF THE USER INPUT IS CORRECT
     public int checkLayer(){
         int nBricks=(N*M)/2;
         ArrayList<Integer> checkedBricks=new ArrayList<>();
